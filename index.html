@@ -12,6 +12,7 @@
     <!--swipper css-->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   </head>
+  <body>
     <!--header-->
     <header class="py-8 lg:pt-6 lg:pb-14">
       <div class="container mx-auto lg:relative flex flex-col
@@ -99,9 +100,44 @@
 
       </div>
     </header>
+    <!--hero section -->
+
+    <section class="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
+      <div class="container mx-auto h-full">
+        <!--text and img-->
+        <div class="flex flex-col xl:flex-row items-center justify-between h-full">
+          <div class="hero__text xl:w-[48%] text-center xl:text-left">
+            <!--badge-->
+            <div
+              class="flex items-center bg-white py-[10px] px-[20px] w-max gap-x-2
+              mb-[26px] rounded-full mx-auto xl:mx-0"
+            >
+              <i class="ri-heart-pulse-line text-2xl text-accent"></i>
+              <div
+                class="uppercase text-base font-medium text-[#9ab4b7] tracking-[2.24px]"
+              >
+              Live your life</div>
+            </div>
+            <h1 class="h1 mb-6">We care about your health</h1>
+            <p class="mb-[42px] md:max-w-xl">
+              Using responsive utility variants to build adaptive user interfaces.
+              Overview
+              Every utility class in Tailwind can be applied conditionally at different breakpoints, which makes it a piece of cake to build complex responsive interfaces without ever leaving your HTML.
+              There are five breakpoints by default, inspired by common device resolutions:
+            </p>
+            <button class="btn px-8 py-4 btn-accent mx-auto xl:mx-0">Contact us</button>
+          </div>
+          <div class="hero__img hidden xl:flex max-w-[814px] self-end">
+            <img src="assets/img/hero/img.png" alt="hero img">
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--scripts-->
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/scrollreveal.min.js"></script>
     <script src="/js/main.js"></script>
+
   </body>
 </html>
