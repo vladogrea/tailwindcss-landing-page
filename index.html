@@ -154,7 +154,134 @@
       </div>
     </section>
 
-    <div class="h-[4000px]">test</div>
+    <!--services-->
+    <section class="services">
+      <div
+        class="bg-services bg-cover bg-no-repeat max-w-[1466px]
+        mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[480px] xl:h-[360px] flex items-center
+        xl:items-start -z-10"
+      >
+        <div class="container mx-auto">
+          <div class="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]">
+            <h2 class="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left">Our best services for your solution</h2>
+            <p class=" text-white flex-1 text-center xl:text-left max-w-2xl xl:max-w-none">
+              Thanks Steve will give it a read. Although I am a mega
+              @tailwindcs fan. Have been working with CSS for over ten years and Tailwind just makes my life easier.
+              It is still CSS and you use flex grid etc but just quicker to write and maintain.
+              You should give it a try.
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="container mx-auto mt-8 xl:-mt-[144px]">
+        <div class="grid xl:grid-cols-4 gap-5 px-8 xl:px-0">
+          <div
+            class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2
+            min-h-[288px] flex flex-col items-center text-center"
+          >
+            <!--grid item icon-->
+            <div class="mb-[15px]">
+              <img src="assets/icons/services/icon-1.svg" alt="">
+            </div>
+            <h3 class="h3 mb-[10px]">General Practitioners</h3>
+            <p class="font-light leading-normal max-w-[300px]">
+              Tailwind CSS is the only framework
+            </p>
+          </div>
+
+          <div
+            class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2
+            min-h-[288px] flex flex-col items-center text-center"
+          >
+          <!--grid item icon-->
+          <div class="mb-[15px]">
+            <img src="assets/icons/services/icon-2.svg" alt="">
+          </div>
+          <h3 class="h3 mb-[10px]">General Practitioners</h3>
+          <p class="font-light leading-normal max-w-[300px]">
+            Tailwind CSS is the only framework
+          </p>
+        </div>
+          <div
+            class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2
+            min-h-[288px] flex flex-col items-center text-center"
+          >
+          <!--grid item icon-->
+            <div class="mb-[15px]">
+              <img src="assets/icons/services/icon-3.svg" alt="">
+            </div>
+            <h3 class="h3 mb-[10px]">General Practitioners</h3>
+            <p class="font-light leading-normal max-w-[300px]">
+              Tailwind CSS is the only framework
+            </p>
+          </div>
+          <div
+            class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2
+            min-h-[288px] flex flex-col items-center text-center"
+          >
+            <!--grid item icon-->
+            <div class="mb-[15px]">
+              <img src="assets/icons/services/icon-4.svg" alt="">
+            </div>
+            <h3 class="h3 mb-[10px]">General Practitioners</h3>
+            <p class="font-light leading-normal max-w-[300px]">
+              Tailwind CSS is the only framework
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!--appointment-->
+    <section class="appointment section">
+      <div class=" container mx-auto">
+        <h2 class="appointment__title h2 mb-5 xl:mb-[50px] text-center xl:text-left"> Book Appointment or call:
+          <span class="text-accent-tertiary"> 111 222 333</span>
+        </h2>
+        <form class="appointment__form flex flex-col gap-y-5">
+          <!--first select-->
+          <div class="flex flex-col xl:flex-row gap-5">
+
+            <div class="select relative flex items-center">
+              <div class="absolute right-4">
+                <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+              </div>
+              <select class="appearance-none outline-none h-full w-full bg-transparent px-4">
+                <option value="1"> Select Department</option>
+                <option value="2">Department</option>
+                <option value="3">Department</option>
+                <option value="4">Department</option>
+              </select>
+            </div>
+
+            <div class="select relative flex items-center">
+              <div class="absolute right-4">
+                <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+              </div>
+              <select class="appearance-none outline-none h-full w-full bg-transparent px-4">
+                <option value="1"> Select Doctor</option>
+                <option value="2">Doctor 1</option>
+                <option value="3">Doctor2</option>
+                <option value="4">Doctor3</option>
+              </select>
+            </div>
+
+          </div>
+          <div class="flex flex-col xl:flex-row gap-5">
+            <input type="text" class="input" placeholder="Full Name" />
+            <input type="tel" class="input" placeholder="Phone number" />
+          </div>
+          <div class="flex flex-col xl:flex-row gap-5">
+            <input type="date" class="input" />
+            <input type="time" class="input" />
+          </div>
+          <button class="btn btn-lg btn-accent self-start">Book</button>
+        </form>
+      </div>
+    </section>
+
+    <div class="h-[4000px]"></div>
 
     <!--scripts-->
     <script src="./js/swiper-bundle.min.js"></script>
