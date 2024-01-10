@@ -28,3 +28,46 @@ const swiper = new Swiper('.swiper', {
   },
 
 });
+
+//scroll reveal animations
+
+const sr = ScrollReveal({
+  origin: 'bottom',
+  distance: '60px',
+  duration: 2000,
+  delay: 400
+});
+
+//hero
+sr.reveal('.hero__text', {origin: 'top'});
+sr.reveal('.hero__img');
+
+//stats
+sr.reveal('.stats__item', {
+  delay: 400,
+  distance: '100px',
+  interval: 100,
+  origin: 'top'
+});
+
+//services
+sr.reveal('.services');
+sr.reveal('.services__top');
+sr.reveal('.services__item', {
+  delay: 400,
+  distance: '100px',
+  interval: 100,
+  origin: 'bottom'
+})
+
+//appointment
+sr.reveal('.appointment__title');
+sr.reveal('.appointment__form');
+
+//testimonials
+sr.reveal('.testimonial');
+sr.reveal('.testimonial__form');
+
+//footer
+sr.reveal('.footer');
+sr.reveal('.footer__item');
